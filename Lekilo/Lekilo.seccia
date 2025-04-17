@@ -136,7 +136,7 @@
 "scenario": {
 "board": {
 "nextid": 116,
-"x": 1482,
+"x": 1098,
 "boxes": [
 {
 "type": 257,
@@ -605,19 +605,56 @@
 "uid": "R_ENTREE",
 "graph": {
 "board": {
-"nextid": 3,
+"nextid": 11,
 "boxes": [
 {
 "type": 257,
 "id": 1,
-"x": 509,
-"y": 248,
+"x": 24,
+"y": 25,
 "plugs": [
 {
 "id": 2,
 "type": 3
 }
 ]
+},
+{
+"type": 1287,
+"id": 3,
+"x": 255,
+"y": 184,
+"plugs": [
+{
+"id": 4,
+"type": 3,
+"trgs": [
+9
+]
+}
+],
+"varCmp": "==",
+"scene": "S_ENTREE",
+"obj": "O_FEUILLE"
+},
+{
+"type": 788,
+"id": 8,
+"x": 428,
+"y": 184,
+"plugs": [
+{
+"id": 9,
+"type": 2
+},
+{
+"id": 10,
+"type": 3
+}
+],
+"player": "P_HERO",
+"obj": "O_FEUILLE",
+"silent": "False"
 }
 ]
 }
@@ -698,10 +735,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 55,
-"nextID": 2,
-"x": 91,
-"y": 196,
+"zoom": 45,
+"nextID": 5,
+"x": -282,
+"y": 10,
 "role": "R_ENTREE"
 },
 "sid": 5,
@@ -728,7 +765,7 @@
 "",
 ""
 ],
-"x": 456,
+"x": 712,
 "y": 1000,
 "parallax": 100,
 "lightAmbient": 255,
@@ -912,7 +949,10 @@
 },
 {
 "col": 33,
-"row": 54
+"row": 54,
+"linkSelObj": {
+"obj": "O_LETTRE"
+}
 },
 {
 "col": 33,
@@ -1320,7 +1360,10 @@
 },
 {
 "col": 66,
-"row": 59
+"row": 59,
+"linkSelObj": {
+"obj": "O_FEUILLE"
+}
 },
 {
 "col": 66,
@@ -3448,7 +3491,10 @@
 },
 {
 "col": 47,
-"row": 35
+"row": 35,
+"linkSelLabel": {
+"label": "VILLAGE"
+}
 },
 {
 "col": 46,
@@ -3502,6 +3548,120 @@
 {},
 {}
 ]
+},
+{
+"uid": "O_FEUILLE",
+"depths": [
+{
+"y": 1008,
+"a": 18,
+"b": 100
+},
+{
+"y": 1024,
+"a": 36,
+"b": 100
+}
+],
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1093,
+"y": 901,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_LETTRE",
+"depths": [
+{
+"y": 1008,
+"a": 19,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 482,
+"y": 849,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"labels": [
+{
+"name": "VILLAGE",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 625,
+"y": 384,
+"width": 300,
+"height": 187
 }
 ]
 },
@@ -4666,7 +4826,19 @@
 "loopRangeMax": -1,
 "dirs": [
 {
-"name": "LEFT"
+"name": "LEFT",
+"count": 1,
+"frames": [
+{
+"md5": "b1149c8ed1ca716de097ae550a00bd38",
+"wtrim": 72,
+"htrim": 138,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 76,
+"hdraw": 142
+}
+]
 },
 {
 "name": "RIGHT",
@@ -4701,7 +4873,8 @@
 {
 "name": "BR"
 }
-]
+],
+"flip": true
 }
 ],
 "sid": 3,
@@ -4728,11 +4901,289 @@
 },
 {
 "index": 4
+},
+{
+"index": 5,
+"flipped": true
 }
 ],
 "packs": [
 {
-"count": 5
+"count": 6
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"speedX": 150,
+"speedY": 150,
+"width": 446,
+"height": 371
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "c808a969511285a57bca5f58e763937f",
+"wtrim": 446,
+"htrim": 372,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 450,
+"hdraw": 376
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 24,
+"uid": "O_FEUILLE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 446,
+"h": 372
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 548,
+"height": 254
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "b466ae02378f1f32f20f81c4fba706ed",
+"wtrim": 548,
+"htrim": 254,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 552,
+"hdraw": 258
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 25,
+"uid": "O_LETTRE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 548,
+"h": 254
+}
+],
+"packs": [
+{
+"count": 1
 }
 ]
 }
@@ -4750,6 +5201,6 @@
 }
 ],
 "meta": {
-"nextAssetID": 24
+"nextAssetID": 26
 }
 }
