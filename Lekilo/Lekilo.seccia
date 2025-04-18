@@ -2782,7 +2782,7 @@
 "uid": "R_CIMETIERRE",
 "graph": {
 "board": {
-"nextid": 44,
+"nextid": 47,
 "x": 151,
 "y": 62,
 "boxes": [
@@ -3032,7 +3032,10 @@
 },
 {
 "id": 37,
-"type": 3
+"type": 3,
+"trgs": [
+45
+]
 }
 ],
 "puzzle": "#secateur"
@@ -3076,6 +3079,23 @@
 "durationOut": "0",
 "durationWait": "0",
 "durationIn": "0"
+},
+{
+"type": 780,
+"id": 44,
+"x": 637,
+"y": 340,
+"plugs": [
+{
+"id": 45,
+"type": 2
+},
+{
+"id": 46,
+"type": 3
+}
+],
+"puzzle": "#reparation"
 }
 ]
 }
@@ -7396,7 +7416,7 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 50,
+"zoom": 55,
 "nextID": 13,
 "x": -52,
 "y": 32,
@@ -8851,7 +8871,10 @@
 },
 {
 "col": 78,
-"row": 43
+"row": 43,
+"linkSelLabel": {
+"label": "SANCTUAIRE"
+}
 },
 {
 "col": 78,
@@ -14627,10 +14650,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 80,
+"zoom": 45,
 "nextID": 6,
-"x": -509,
-"y": -75,
+"x": -139,
+"y": 126,
 "role": "R_SANCTUAIRE"
 },
 "sid": 10,
@@ -15517,7 +15540,10 @@
 },
 {
 "col": 38,
-"row": 38
+"row": 38,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 35,
@@ -15557,23 +15583,38 @@
 },
 {
 "col": 38,
-"row": 39
+"row": 39,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 38,
-"row": 40
+"row": 40,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 37,
-"row": 40
+"row": 40,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 37,
-"row": 41
+"row": 41,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 38,
-"row": 41
+"row": 41,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 36,
@@ -15589,29 +15630,41 @@
 },
 {
 "col": 37,
+"row": 42,
+"linkSelLabel": {
+"label": "AUTEL"
+}
+},
+{
+"col": 38,
+"row": 42,
+"linkSelLabel": {
+"label": "AUTEL"
+}
+},
+{
+"col": 36,
+"row": 43
+},
+{
+"col": 37,
+"row": 43,
+"linkSelLabel": {
+"label": "AUTEL"
+}
+},
+{
+"col": 38,
+"row": 43,
+"linkSelLabel": {
+"label": "AUTEL"
+}
+},
+{
+"col": 35,
 "row": 42
 },
 {
-"col": 38,
-"row": 42
-},
-{
-"col": 36,
-"row": 43
-},
-{
-"col": 37,
-"row": 43
-},
-{
-"col": 38,
-"row": 43
-},
-{
-"col": 35,
-"row": 42
-},
-{
 "col": 35,
 "row": 43
 },
@@ -15629,7 +15682,10 @@
 },
 {
 "col": 38,
-"row": 44
+"row": 44,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 35,
@@ -15645,7 +15701,10 @@
 },
 {
 "col": 38,
-"row": 45
+"row": 45,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 35,
@@ -15661,7 +15720,10 @@
 },
 {
 "col": 38,
-"row": 46
+"row": 46,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 34,
@@ -16309,11 +16371,17 @@
 },
 {
 "col": 58,
-"row": 46
+"row": 46,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 59,
-"row": 46
+"row": 46,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 60,
@@ -16341,7 +16409,10 @@
 },
 {
 "col": 59,
-"row": 45
+"row": 45,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 60,
@@ -16357,7 +16428,10 @@
 },
 {
 "col": 59,
-"row": 44
+"row": 44,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 60,
@@ -16441,11 +16515,17 @@
 },
 {
 "col": 59,
-"row": 42
+"row": 42,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 59,
-"row": 43
+"row": 43,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 59,
@@ -16489,11 +16569,17 @@
 },
 {
 "col": 58,
-"row": 41
+"row": 41,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 58,
-"row": 42
+"row": 42,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 58,
@@ -16513,19 +16599,31 @@
 },
 {
 "col": 57,
-"row": 38
+"row": 38,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 57,
-"row": 39
+"row": 39,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 57,
-"row": 40
+"row": 40,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 57,
-"row": 41
+"row": 41,
+"linkSelLabel": {
+"label": "AUTEL"
+}
 },
 {
 "col": 57,
@@ -19598,11 +19696,11 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 60,
+"zoom": 75,
 "nextID": 8,
 "role": "R_AUTEL",
-"x": -363,
-"y": 138
+"x": -261,
+"y": 321
 },
 "sid": 11,
 "uid": "S_AUTEL",
@@ -19683,6 +19781,138 @@
 "obj": "O_PIERRE",
 "label": "PIERRE"
 }
+},
+{
+"col": 44,
+"row": 77
+},
+{
+"col": 44,
+"row": 78
+},
+{
+"col": 43,
+"row": 78
+},
+{
+"col": 45,
+"row": 78
+},
+{
+"col": 46,
+"row": 78
+},
+{
+"col": 47,
+"row": 78
+},
+{
+"col": 48,
+"row": 78
+},
+{
+"col": 49,
+"row": 78
+},
+{
+"col": 49,
+"row": 77
+},
+{
+"col": 49,
+"row": 76
+},
+{
+"col": 48,
+"row": 76
+},
+{
+"col": 47,
+"row": 76
+},
+{
+"col": 46,
+"row": 76
+},
+{
+"col": 45,
+"row": 76
+},
+{
+"col": 44,
+"row": 76
+},
+{
+"col": 43,
+"row": 76
+},
+{
+"col": 43,
+"row": 77
+},
+{
+"col": 47,
+"row": 79
+},
+{
+"col": 48,
+"row": 79
+},
+{
+"col": 50,
+"row": 78
+},
+{
+"col": 50,
+"row": 77
+},
+{
+"col": 50,
+"row": 76
+},
+{
+"col": 50,
+"row": 75
+},
+{
+"col": 49,
+"row": 75
+},
+{
+"col": 48,
+"row": 75
+},
+{
+"col": 47,
+"row": 75
+},
+{
+"col": 46,
+"row": 75
+},
+{
+"col": 45,
+"row": 75
+},
+{
+"col": 44,
+"row": 75
+},
+{
+"col": 44,
+"row": 79
+},
+{
+"col": 45,
+"row": 79
+},
+{
+"col": 46,
+"row": 79
+},
+{
+"col": 49,
+"row": 79
 }
 ]
 },
