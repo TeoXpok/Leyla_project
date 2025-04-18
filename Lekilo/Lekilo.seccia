@@ -276,7 +276,7 @@
 "type": 256,
 "id": 65,
 "name": "#recette",
-"x": -312,
+"x": -320,
 "y": 304,
 "plugs": [
 {
@@ -296,8 +296,8 @@
 "type": 256,
 "id": 68,
 "name": "#vieux",
-"x": -656,
-"y": 304,
+"x": -640,
+"y": 296,
 "plugs": [
 {
 "id": 69,
@@ -398,8 +398,8 @@
 "type": 256,
 "id": 83,
 "name": "#pierre",
-"x": -328,
-"y": 376,
+"x": -272,
+"y": 424,
 "plugs": [
 {
 "id": 84,
@@ -418,8 +418,8 @@
 "type": 256,
 "id": 86,
 "name": "#reparation",
-"x": -384,
-"y": 184,
+"x": -392,
+"y": 168,
 "plugs": [
 {
 "id": 87,
@@ -438,8 +438,8 @@
 "type": 256,
 "id": 89,
 "name": "#secateur",
-"x": -560,
-"y": 200,
+"x": -544,
+"y": 184,
 "plugs": [
 {
 "id": 90,
@@ -538,8 +538,8 @@
 "type": 256,
 "id": 107,
 "name": "#tombe1",
-"x": -448,
-"y": 432,
+"x": -464,
+"y": 480,
 "plugs": [
 {
 "id": 108,
@@ -559,7 +559,7 @@
 "id": 110,
 "name": "#tombe2",
 "x": -456,
-"y": 376,
+"y": 416,
 "plugs": [
 {
 "id": 111,
@@ -578,8 +578,8 @@
 "type": 256,
 "id": 113,
 "name": "#tombe3",
-"x": -464,
-"y": 336,
+"x": -440,
+"y": 368,
 "plugs": [
 {
 "id": 114,
@@ -1004,9 +1004,9 @@
 "uid": "R_PLACE",
 "graph": {
 "board": {
-"nextid": 131,
-"x": 97,
-"y": -98,
+"nextid": 140,
+"x": 181,
+"y": -59,
 "boxes": [
 {
 "type": 257,
@@ -1043,8 +1043,8 @@
 {
 "type": 1285,
 "id": 6,
-"x": 308,
-"y": 198,
+"x": 339,
+"y": 189,
 "plugs": [
 {
 "id": 7,
@@ -1136,14 +1136,14 @@
 {
 "type": 1285,
 "id": 20,
-"x": 306,
-"y": 266,
+"x": 853,
+"y": 131,
 "plugs": [
 {
 "id": 21,
 "type": 3,
 "trgs": [
-23
+132
 ]
 }
 ],
@@ -1154,8 +1154,8 @@
 {
 "type": 775,
 "id": 22,
-"x": 466,
-"y": 334,
+"x": 988,
+"y": 251,
 "plugs": [
 {
 "id": 23,
@@ -1231,8 +1231,8 @@
 {
 "type": 1287,
 "id": 32,
-"x": 674,
-"y": 426,
+"x": 682,
+"y": 419,
 "plugs": [
 {
 "id": 33,
@@ -1249,8 +1249,8 @@
 {
 "type": 1287,
 "id": 34,
-"x": 263,
-"y": 505,
+"x": 690,
+"y": 485,
 "plugs": [
 {
 "id": 35,
@@ -1267,8 +1267,8 @@
 {
 "type": 788,
 "id": 36,
-"x": 535,
-"y": 455,
+"x": 1097,
+"y": 478,
 "plugs": [
 {
 "id": 37,
@@ -1286,8 +1286,8 @@
 {
 "type": 788,
 "id": 39,
-"x": 973,
-"y": 430,
+"x": 1122,
+"y": 409,
 "plugs": [
 {
 "id": 40,
@@ -1359,8 +1359,8 @@
 {
 "type": 780,
 "id": 51,
-"x": 751,
-"y": 657,
+"x": 789,
+"y": 643,
 "plugs": [
 {
 "id": 52,
@@ -1376,8 +1376,8 @@
 {
 "type": 1031,
 "id": 54,
-"x": 404,
-"y": 454,
+"x": 912,
+"y": 530,
 "plugs": [
 {
 "id": 55,
@@ -1408,8 +1408,8 @@
 {
 "type": 1031,
 "id": 60,
-"x": 824,
-"y": 435,
+"x": 901,
+"y": 404,
 "plugs": [
 {
 "id": 61,
@@ -1440,8 +1440,8 @@
 {
 "type": 1031,
 "id": 66,
-"x": 411,
-"y": 799,
+"x": 429,
+"y": 797,
 "plugs": [
 {
 "id": 67,
@@ -1472,7 +1472,7 @@
 {
 "type": 788,
 "id": 72,
-"x": 567,
+"x": 609,
 "y": 820,
 "plugs": [
 {
@@ -1494,8 +1494,8 @@
 {
 "type": 780,
 "id": 75,
-"x": 735,
-"y": 820,
+"x": 797,
+"y": 817,
 "plugs": [
 {
 "id": 76,
@@ -1511,8 +1511,8 @@
 {
 "type": 1290,
 "id": 78,
-"x": -82,
-"y": 281,
+"x": -337,
+"y": 191,
 "plugs": [
 {
 "id": 79,
@@ -1524,14 +1524,13 @@
 ],
 "varCmp": "==",
 "obj": "O_LANTERNOFF",
-"obj2": "O_GARCON",
-"sub": "ANY"
+"obj2": "O_ALLUMETTE"
 },
 {
 "type": 1290,
 "id": 80,
-"x": -96,
-"y": 415,
+"x": -341,
+"y": 359,
 "plugs": [
 {
 "id": 81,
@@ -1543,14 +1542,13 @@
 ],
 "varCmp": "==",
 "obj": "O_LANTERNOFF",
-"obj2": "O_HUILE",
-"sub": "ANY"
+"obj2": "O_HUILE"
 },
 {
 "type": 788,
 "id": 82,
-"x": 162,
-"y": 301,
+"x": 3,
+"y": 211,
 "plugs": [
 {
 "id": 83,
@@ -1571,8 +1569,8 @@
 {
 "type": 1031,
 "id": 88,
-"x": 45,
-"y": 266,
+"x": -159,
+"y": 190,
 "plugs": [
 {
 "id": 89,
@@ -1603,8 +1601,8 @@
 {
 "type": 788,
 "id": 94,
-"x": 144,
-"y": 394,
+"x": 32,
+"y": 386,
 "plugs": [
 {
 "id": 95,
@@ -1625,8 +1623,8 @@
 {
 "type": 1031,
 "id": 97,
-"x": 38,
-"y": 403,
+"x": -169,
+"y": 357,
 "plugs": [
 {
 "id": 98,
@@ -1657,8 +1655,8 @@
 {
 "type": 780,
 "id": 103,
-"x": 159,
-"y": 463,
+"x": 212,
+"y": 440,
 "plugs": [
 {
 "id": 104,
@@ -1674,8 +1672,8 @@
 {
 "type": 780,
 "id": 106,
-"x": 164,
-"y": 231,
+"x": 176,
+"y": 213,
 "plugs": [
 {
 "id": 107,
@@ -1691,8 +1689,8 @@
 {
 "type": 1290,
 "id": 109,
-"x": -83,
-"y": 545,
+"x": -202,
+"y": 548,
 "plugs": [
 {
 "id": 110,
@@ -1704,14 +1702,13 @@
 ],
 "varCmp": "==",
 "obj": "O_LANTERNMID",
-"obj2": "O_HUILE",
-"sub": "ANY"
+"obj2": "O_HUILE"
 },
 {
 "type": 780,
 "id": 117,
-"x": 191,
-"y": 589,
+"x": 231,
+"y": 546,
 "plugs": [
 {
 "id": 118,
@@ -1749,8 +1746,8 @@
 {
 "type": 1290,
 "id": 123,
-"x": -94,
-"y": 642,
+"x": -203,
+"y": 645,
 "plugs": [
 {
 "id": 124,
@@ -1762,14 +1759,13 @@
 ],
 "varCmp": "==",
 "obj": "O_LANTERNMID",
-"obj2": "O_ALLUMETTE",
-"sub": "ANY"
+"obj2": "O_ALLUMETTE"
 },
 {
 "type": 780,
 "id": 125,
-"x": 191,
-"y": 656,
+"x": 228,
+"y": 641,
 "plugs": [
 {
 "id": 126,
@@ -1803,6 +1799,61 @@
 "player": "P_HERO",
 "obj": "O_LANTERNON",
 "silent": "False"
+},
+{
+"type": 1031,
+"id": 131,
+"x": 845,
+"y": 242,
+"plugs": [
+{
+"id": 132,
+"type": 2
+},
+{
+"id": 133,
+"type": 3,
+"trgs": [
+23
+]
+},
+{
+"id": 134,
+"type": 3
+},
+{
+"id": 135,
+"type": 3,
+"trgs": [
+138
+]
+},
+{
+"id": 136,
+"type": 3
+}
+],
+"puzzle": "#portail"
+},
+{
+"type": 775,
+"id": 137,
+"x": 1004,
+"y": 310,
+"plugs": [
+{
+"id": 138,
+"type": 2
+},
+{
+"id": 139,
+"type": 3
+}
+],
+"scene": "S_PORTAIL",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
 }
 ]
 }
@@ -2040,7 +2091,7 @@
 ],
 "varCmp": "==",
 "scene": "S_MAISON",
-"obj": "O_FLECHE"
+"obj": "O_VIEU"
 },
 {
 "type": 1031,
@@ -2325,6 +2376,528 @@
 }
 ],
 "puzzle": "#portail"
+}
+]
+}
+}
+},
+{
+"sid": 47,
+"uid": "R_CIMETIERRE",
+"graph": {
+"board": {
+"nextid": 30,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"x": 4,
+"y": 2,
+"plugs": [
+{
+"id": 2,
+"type": 3
+}
+]
+},
+{
+"type": 1285,
+"id": 5,
+"x": 631,
+"y": 7,
+"plugs": [
+{
+"id": 6,
+"type": 3,
+"trgs": [
+19
+]
+}
+],
+"varCmp": "==",
+"scene": "S_CIMETIERRE",
+"label": "CADENAS"
+},
+{
+"type": 1285,
+"id": 7,
+"x": 323,
+"y": 85,
+"plugs": [
+{
+"id": 8,
+"type": 3,
+"trgs": [
+28
+]
+}
+],
+"varCmp": "==",
+"scene": "S_CIMETIERRE",
+"label": "TOMBE1"
+},
+{
+"type": 1285,
+"id": 9,
+"x": 318,
+"y": 165,
+"plugs": [
+{
+"id": 10,
+"type": 3
+}
+],
+"varCmp": "==",
+"scene": "S_CIMETIERRE",
+"label": "TOMBE2"
+},
+{
+"type": 1285,
+"id": 11,
+"x": 307,
+"y": 240,
+"plugs": [
+{
+"id": 12,
+"type": 3
+}
+],
+"varCmp": "==",
+"scene": "S_CIMETIERRE",
+"label": "TOMBE3"
+},
+{
+"type": 1287,
+"id": 13,
+"x": 20,
+"y": 96,
+"plugs": [
+{
+"id": 14,
+"type": 3,
+"trgs": [
+16
+]
+}
+],
+"varCmp": "==",
+"scene": "S_CIMETIERRE",
+"obj": "O_FLECHE"
+},
+{
+"type": 775,
+"id": 15,
+"x": 160,
+"y": 97,
+"plugs": [
+{
+"id": 16,
+"type": 2
+},
+{
+"id": 17,
+"type": 3
+}
+],
+"scene": "S_PLACE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 1031,
+"id": 18,
+"x": 754,
+"y": 8,
+"plugs": [
+{
+"id": 19,
+"type": 2
+},
+{
+"id": 20,
+"type": 3
+},
+{
+"id": 21,
+"type": 3
+},
+{
+"id": 22,
+"type": 3,
+"trgs": [
+25
+]
+},
+{
+"id": 23,
+"type": 3
+}
+],
+"puzzle": "#pierre"
+},
+{
+"type": 775,
+"id": 24,
+"x": 935,
+"y": 47,
+"plugs": [
+{
+"id": 25,
+"type": 2
+},
+{
+"id": 26,
+"type": 3
+}
+],
+"scene": "S_CADENAS",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 775,
+"id": 27,
+"x": 492,
+"y": 87,
+"plugs": [
+{
+"id": 28,
+"type": 2
+},
+{
+"id": 29,
+"type": 3
+}
+],
+"scene": "S_CADENAS",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+}
+]
+}
+}
+},
+{
+"sid": 50,
+"uid": "R_TOMBE1",
+"graph": {
+"board": {
+"nextid": 18,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"x": 169,
+"y": 385,
+"plugs": [
+{
+"id": 2,
+"type": 3,
+"trgs": [
+4
+]
+}
+]
+},
+{
+"type": 771,
+"id": 3,
+"x": 312,
+"y": 388,
+"plugs": [
+{
+"id": 4,
+"type": 2
+},
+{
+"id": 5,
+"type": 3,
+"trgs": [
+16
+]
+}
+],
+"duration": "2000"
+},
+{
+"type": 775,
+"id": 12,
+"x": 667,
+"y": 376,
+"plugs": [
+{
+"id": 13,
+"type": 2
+},
+{
+"id": 14,
+"type": 3
+}
+],
+"scene": "S_CIMETIERRE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 780,
+"id": 15,
+"x": 455,
+"y": 379,
+"plugs": [
+{
+"id": 16,
+"type": 2
+},
+{
+"id": 17,
+"type": 3,
+"trgs": [
+13
+]
+}
+],
+"puzzle": "#tombe1"
+}
+]
+}
+}
+},
+{
+"sid": 51,
+"uid": "R_TOMBE2",
+"graph": {
+"board": {
+"nextid": 14,
+"boxes": [
+{
+"type": 257,
+"id": 3,
+"x": 308,
+"y": 418,
+"plugs": [
+{
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+]
+},
+{
+"type": 771,
+"id": 5,
+"x": 451,
+"y": 421,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"duration": "2000"
+},
+{
+"type": 775,
+"id": 8,
+"x": 806,
+"y": 409,
+"plugs": [
+{
+"id": 9,
+"type": 2
+},
+{
+"id": 10,
+"type": 3
+}
+],
+"scene": "S_CIMETIERRE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 780,
+"id": 11,
+"x": 594,
+"y": 412,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+9
+]
+}
+],
+"puzzle": "#tombe2"
+}
+]
+}
+}
+},
+{
+"sid": 52,
+"uid": "R_TOMBE3",
+"graph": {
+"board": {
+"nextid": 14,
+"boxes": [
+{
+"type": 257,
+"id": 3,
+"x": 308,
+"y": 418,
+"plugs": [
+{
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+]
+},
+{
+"type": 771,
+"id": 5,
+"x": 451,
+"y": 421,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
+"type": 3,
+"trgs": [
+12
+]
+}
+],
+"duration": "2000"
+},
+{
+"type": 775,
+"id": 8,
+"x": 806,
+"y": 409,
+"plugs": [
+{
+"id": 9,
+"type": 2
+},
+{
+"id": 10,
+"type": 3
+}
+],
+"scene": "S_CIMETIERRE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 780,
+"id": 11,
+"x": 594,
+"y": 412,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+9
+]
+}
+],
+"puzzle": "#tombe3"
+}
+]
+}
+}
+},
+{
+"sid": 53,
+"uid": "R_CADENAS",
+"graph": {
+"board": {
+"nextid": 9,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"x": 127,
+"y": 52,
+"plugs": [
+{
+"id": 2,
+"type": 3,
+"trgs": [
+4
+]
+}
+]
+},
+{
+"type": 788,
+"id": 3,
+"x": 238,
+"y": 53,
+"plugs": [
+{
+"id": 4,
+"type": 2
+},
+{
+"id": 5,
+"type": 3,
+"trgs": [
+7
+]
+}
+],
+"player": "P_HERO",
+"obj": "O_PIERRE",
+"silent": "False"
+},
+{
+"type": 780,
+"id": 6,
+"x": 377,
+"y": 54,
+"plugs": [
+{
+"id": 7,
+"type": 2
+},
+{
+"id": 8,
+"type": 3
+}
+],
+"puzzle": "#pierre"
 }
 ]
 }
@@ -11644,11 +12217,262 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 10,
-"nextID": 1
+"zoom": 30,
+"nextID": 7,
+"role": "R_CIMETIERRE",
+"x": -467,
+"y": -91
 },
 "sid": 7,
-"uid": "S_CIMETIERRE"
+"uid": "S_CIMETIERRE",
+"objects": [
+{
+"uid": "O_FLECHE",
+"depths": [
+{
+"y": 1008,
+"a": 19,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 813,
+"y": 886,
+"parallax": 100,
+"angle": 99,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_HERO",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 712,
+"y": 1368,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{
+"cells": [
+{
+"col": 42,
+"row": 84
+},
+{
+"col": 43,
+"row": 84
+},
+{
+"col": 44,
+"row": 84
+},
+{
+"col": 45,
+"row": 84
+},
+{
+"col": 46,
+"row": 84
+},
+{
+"col": 47,
+"row": 84
+},
+{
+"col": 47,
+"row": 85
+},
+{
+"col": 47,
+"row": 86
+},
+{
+"col": 46,
+"row": 86
+},
+{
+"col": 45,
+"row": 86
+},
+{
+"col": 44,
+"row": 86
+},
+{
+"col": 43,
+"row": 86
+},
+{
+"col": 42,
+"row": 86
+},
+{
+"col": 42,
+"row": 85
+},
+{
+"col": 43,
+"row": 85,
+"linkSelLabel": {
+"label": "TOMBE3"
+}
+},
+{
+"col": 44,
+"row": 85,
+"linkSelLabel": {
+"label": "TOMBE1"
+}
+},
+{
+"col": 45,
+"row": 85,
+"linkSelObj": {
+"obj": "O_FLECHE"
+},
+"linkSelLabel": {
+"label": "CADENAS"
+}
+},
+{
+"col": 46,
+"row": 85,
+"linkSelLabel": {
+"label": "TOMBE2"
+}
+}
+]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+],
+"labels": [
+{
+"name": "TOMBE1",
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 175,
+"y": 453,
+"width": 234,
+"height": 429
+},
+{
+"name": "TOMBE3",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1195,
+"y": 635,
+"width": 206,
+"height": 264
+},
+{
+"name": "TOMBE2",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 476,
+"y": 539,
+"width": 165,
+"height": 261
+},
+{
+"name": "CADENAS",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 868,
+"y": 355,
+"width": 242,
+"height": 239
+}
+]
 },
 {
 "scene": {
@@ -12749,7 +13573,8 @@
 }
 },
 "zoom": 10,
-"nextID": 1
+"nextID": 1,
+"role": "R_CADENAS"
 },
 "sid": 14,
 "uid": "S_CADENAS"
@@ -13120,10 +13945,11 @@
 }
 },
 "zoom": 10,
-"nextID": 1
+"nextID": 1,
+"role": "R_TOMBE1"
 },
 "sid": 18,
-"uid": "S_TOMBE"
+"uid": "S_TOMBE1"
 },
 {
 "scene": {
@@ -13274,6 +14100,166 @@
 "height": 724
 }
 ]
+},
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"backOpacityMin": 100,
+"backOpacityMax": 100,
+"backOpacitySpeed": 100,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"zoom": 10,
+"nextID": 1,
+"role": "R_TOMBE2"
+},
+"sid": 48,
+"uid": "S_TOMBE2"
+},
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"backOpacityMin": 100,
+"backOpacityMax": 100,
+"backOpacitySpeed": 100,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"zoom": 10,
+"nextID": 1,
+"role": "R_TOMBE3"
+},
+"sid": 49,
+"uid": "S_TOMBE3"
 }
 ],
 "objects": [
@@ -16590,6 +17576,142 @@
 }
 ]
 }
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 1017,
+"height": 1024
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "c6393f43addb997a355412d2db93f408",
+"wtrim": 1018,
+"htrim": 1024,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 1022,
+"hdraw": 1028
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 54,
+"uid": "O_PIERRE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 1018,
+"h": 1024
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
 }
 ],
 "players": [
@@ -16604,6 +17726,6 @@
 }
 ],
 "meta": {
-"nextAssetID": 47
+"nextAssetID": 55
 }
 }
