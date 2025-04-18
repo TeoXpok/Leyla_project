@@ -2164,9 +2164,9 @@
 "uid": "R_MAISON",
 "graph": {
 "board": {
-"nextid": 63,
-"x": -21,
-"y": -95,
+"nextid": 66,
+"x": -104,
+"y": -229,
 "boxes": [
 {
 "type": 257,
@@ -2480,8 +2480,8 @@
 {
 "type": 780,
 "id": 57,
-"x": 782,
-"y": 712,
+"x": 961,
+"y": 699,
 "plugs": [
 {
 "id": 58,
@@ -2508,12 +2508,34 @@
 "id": 62,
 "type": 3,
 "trgs": [
-58
+64
 ]
 }
 ],
 "player": "P_HERO",
 "obj": "O_SECATEUR",
+"silent": "False"
+},
+{
+"type": 788,
+"id": 63,
+"x": 752,
+"y": 710,
+"plugs": [
+{
+"id": 64,
+"type": 2
+},
+{
+"id": 65,
+"type": 3,
+"trgs": [
+58
+]
+}
+],
+"player": "DUMP",
+"obj": "O_SECATEUROFF",
 "silent": "False"
 }
 ]
@@ -21091,13 +21113,13 @@
 "height": 148,
 "x": 44,
 "y": 145,
-"speedX": 200,
-"speedY": 200
+"speedX": 250,
+"speedY": 250
 },
 "anims": [
 {
 "name": "STOP",
-"fps": 6,
+"fps": 12,
 "action": -1,
 "loopRangeMax": -1,
 "dirs": [
