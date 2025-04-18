@@ -3516,7 +3516,7 @@
 "type": 3
 }
 ],
-"puzzle": "#reparation"
+"puzzle": "#secateur"
 },
 {
 "type": 780,
@@ -4211,7 +4211,8 @@
 "id": 2,
 "type": 3
 }
-]
+],
+"script": "set rot1 = 0\r\nset rot2 = 0\r\nset rot3 = 0\r\nset rot4 = 0"
 },
 {
 "type": 1287,
@@ -4284,7 +4285,7 @@
 "type": 3
 }
 ],
-"script": "if rot == 0\r\n\t    rotate O_TABBL 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABBL 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABBL 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABBL 0\r\n    set rot = 0\r\n",
+"script": "if rot1 == 0\r\n\t    rotate O_TABBL 90\r\n\t    set rot1 = 1\r\nelse if rot1 == 1\r\n\t    rotate O_TABBL 180\r\n\t    set rot1 = 2\r\nelse if rot1 == 2\r\n\t    rotate O_TABBL 270\r\n\t    set rot1 = 3\r\nelse if rot == 3\r\n\t    rotate O_TABBL 0\r\n\t    set rot1 = 0\r\n",
 "plugCount": 1
 },
 {
@@ -4320,7 +4321,7 @@
 "type": 3
 }
 ],
-"script": "if rot == 0\r\n\t    rotate O_TABBR 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABBR 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABBR 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABBR 0\r\n    set rot = 0\r\n",
+"script": "if rot2 == 0\r\n\t    rotate O_TABBR 90\r\n\t    set rot2 = 1\r\nelse if rot2 == 1\r\n\t    rotate O_TABBR 180\r\n\t    set rot2 = 2\r\nelse if rot2 == 2\r\n\t    rotate O_TABBR 270\r\n\t    set rot2 = 3\r\nelse if rot2 == 3\r\n\t    rotate O_TABBR 0\r\n\t    set rot2 = 0\r\n",
 "plugCount": 1
 },
 {
@@ -4356,7 +4357,7 @@
 "type": 3
 }
 ],
-"script": "if rot == 0\r\n\t    rotate O_TABTL 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABTL 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABTL 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABTL 0\r\n    set rot = 0\r\n",
+"script": "if rot3 == 0\r\n\t    rotate O_TABTL 90\r\n\t    set rot3 = 1\r\nelse if rot3 == 1\r\n\t    rotate O_TABTL 180\r\n\t    set rot3 = 2\r\nelse if rot3 == 2\r\n\t    rotate O_TABTL 270\r\n\t    set rot3 = 3\r\nelse if rot3 == 3\r\n\t    rotate O_TABTL 0\r\n\t    set rot3 = 0\r\n",
 "plugCount": 1
 },
 {
@@ -4392,7 +4393,7 @@
 "type": 3
 }
 ],
-"script": "if rot == 0\r\n\t    rotate O_TABTR 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABTR 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABTR 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABTR 0\r\n    set rot = 0\r\n",
+"script": "if rot3 == 0\r\n\t    rotate O_TABTR 90\r\n\t    set rot3 = 1\r\nelse if rot3 == 1\r\n\t    rotate O_TABTR 180\r\n\t    set rot3 = 2\r\nelse if rot3 == 2\r\n\t    rotate O_TABTR 270\r\n\t    set rot3 = 3\r\nelse if rot3 == 3\r\n\t    rotate O_TABTR 0\r\n\t    set rot3 = 0\r\n",
 "plugCount": 1
 }
 ]
