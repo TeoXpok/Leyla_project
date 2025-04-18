@@ -4195,6 +4195,209 @@
 ]
 }
 }
+},
+{
+"sid": 63,
+"uid": "R_GROTTE",
+"graph": {
+"board": {
+"nextid": 88,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"plugs": [
+{
+"id": 2,
+"type": 3
+}
+]
+},
+{
+"type": 1287,
+"id": 3,
+"x": 317,
+"y": 141,
+"plugs": [
+{
+"id": 4,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"varCmp": "==",
+"scene": "S_GROTTE",
+"obj": "O_FLECHE"
+},
+{
+"type": 775,
+"id": 5,
+"x": 533,
+"y": 164,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
+"type": 3
+}
+],
+"scene": "S_SANCTUAIRE",
+"durationOut": "0",
+"durationWait": "0",
+"durationIn": "0"
+},
+{
+"type": 1287,
+"id": 8,
+"x": 306,
+"y": 306,
+"plugs": [
+{
+"id": 9,
+"type": 3,
+"trgs": [
+35
+]
+}
+],
+"varCmp": "==",
+"scene": "S_GROTTE",
+"obj": "O_TABBL"
+},
+{
+"type": 513,
+"id": 34,
+"x": 500,
+"y": 308,
+"plugs": [
+{
+"id": 35,
+"type": 2
+},
+{
+"id": 36,
+"type": 3
+}
+],
+"script": "if rot == 0\r\n\t    rotate O_TABBL 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABBL 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABBL 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABBL 0\r\n    set rot = 0\r\n",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 46,
+"x": 299,
+"y": 375,
+"plugs": [
+{
+"id": 47,
+"type": 3,
+"trgs": [
+49
+]
+}
+],
+"varCmp": "==",
+"scene": "S_GROTTE",
+"obj": "O_TABBR"
+},
+{
+"type": 513,
+"id": 48,
+"x": 531,
+"y": 390,
+"plugs": [
+{
+"id": 49,
+"type": 2
+},
+{
+"id": 50,
+"type": 3
+}
+],
+"script": "if rot == 0\r\n\t    rotate O_TABBR 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABBR 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABBR 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABBR 0\r\n    set rot = 0\r\n",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 60,
+"x": 328,
+"y": 466,
+"plugs": [
+{
+"id": 61,
+"type": 3,
+"trgs": [
+63
+]
+}
+],
+"varCmp": "==",
+"scene": "S_GROTTE",
+"obj": "O_TABTL"
+},
+{
+"type": 513,
+"id": 62,
+"x": 567,
+"y": 461,
+"plugs": [
+{
+"id": 63,
+"type": 2
+},
+{
+"id": 64,
+"type": 3
+}
+],
+"script": "if rot == 0\r\n\t    rotate O_TABTL 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABTL 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABTL 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABTL 0\r\n    set rot = 0\r\n",
+"plugCount": 1
+},
+{
+"type": 1287,
+"id": 74,
+"x": 307,
+"y": 532,
+"plugs": [
+{
+"id": 75,
+"type": 3,
+"trgs": [
+77
+]
+}
+],
+"varCmp": "==",
+"scene": "S_GROTTE",
+"obj": "O_TABTR"
+},
+{
+"type": 513,
+"id": 76,
+"x": 556,
+"y": 557,
+"plugs": [
+{
+"id": 77,
+"type": 2
+},
+{
+"id": 78,
+"type": 3
+}
+],
+"script": "if rot == 0\r\n\t    rotate O_TABTR 90\r\n    set rot = 1\r\nelse if rot == 1\r\n\t    rotate O_TABTR 180\r\n    set rot = 2\r\nelse if rot == 2\r\n\t    rotate O_TABTR 270\r\n    set rot = 3\r\nelse if rot == 3\r\n\t    rotate O_TABTR 0\r\n    set rot = 0\r\n",
+"plugCount": 1
+}
+]
+}
+}
 }
 ],
 "scenes": [
@@ -14505,10 +14708,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 55,
-"nextID": 5,
-"x": -229,
-"y": 189,
+"zoom": 80,
+"nextID": 6,
+"x": -509,
+"y": -75,
 "role": "R_SANCTUAIRE"
 },
 "sid": 10,
@@ -15839,7 +16042,10 @@
 },
 {
 "col": 46,
-"row": 55
+"row": 55,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 47,
@@ -15855,7 +16061,10 @@
 },
 {
 "col": 47,
-"row": 55
+"row": 55,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 48,
@@ -15871,7 +16080,10 @@
 },
 {
 "col": 48,
-"row": 55
+"row": 55,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 49,
@@ -15883,11 +16095,17 @@
 },
 {
 "col": 49,
-"row": 54
+"row": 54,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 49,
-"row": 55
+"row": 55,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 50,
@@ -15899,11 +16117,17 @@
 },
 {
 "col": 50,
-"row": 54
+"row": 54,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 50,
-"row": 55
+"row": 55,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 51,
@@ -15919,7 +16143,10 @@
 },
 {
 "col": 51,
-"row": 55
+"row": 55,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 52,
@@ -17730,19 +17957,31 @@
 },
 {
 "col": 52,
-"row": 58
+"row": 58,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 52,
-"row": 59
+"row": 59,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 52,
-"row": 60
+"row": 60,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 52,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 53,
@@ -17770,7 +18009,10 @@
 },
 {
 "col": 51,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 50,
@@ -17786,7 +18028,10 @@
 },
 {
 "col": 50,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 49,
@@ -17802,7 +18047,10 @@
 },
 {
 "col": 49,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 48,
@@ -17818,7 +18066,10 @@
 },
 {
 "col": 48,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 47,
@@ -17834,23 +18085,38 @@
 },
 {
 "col": 47,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 46,
-"row": 58
+"row": 58,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 46,
-"row": 59
+"row": 59,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 46,
-"row": 60
+"row": 60,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 46,
-"row": 61
+"row": 61,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 45,
@@ -18202,7 +18468,10 @@
 },
 {
 "col": 46,
-"row": 62
+"row": 62,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 46,
@@ -18218,7 +18487,10 @@
 },
 {
 "col": 47,
-"row": 62
+"row": 62,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 47,
@@ -18234,7 +18506,10 @@
 },
 {
 "col": 48,
-"row": 62
+"row": 62,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 48,
@@ -18250,7 +18525,10 @@
 },
 {
 "col": 49,
-"row": 62
+"row": 62,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 49,
@@ -18266,7 +18544,10 @@
 },
 {
 "col": 50,
-"row": 62
+"row": 62,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 50,
@@ -18282,7 +18563,10 @@
 },
 {
 "col": 51,
-"row": 62
+"row": 62,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 51,
@@ -18502,11 +18786,17 @@
 },
 {
 "col": 51,
-"row": 56
+"row": 56,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 51,
-"row": 57
+"row": 57,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 52,
@@ -18514,7 +18804,10 @@
 },
 {
 "col": 52,
-"row": 57
+"row": 57,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 50,
@@ -18550,11 +18843,17 @@
 },
 {
 "col": 46,
-"row": 56
+"row": 56,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 46,
-"row": 57
+"row": 57,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
 },
 {
 "col": 45,
@@ -19206,6 +19505,56 @@
 }
 ]
 },
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_FLECHE",
+"depths": [
+{
+"y": 1008,
+"a": 21,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 810,
+"y": 890,
+"parallax": 100,
+"angle": 90,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
 {},
 {},
 {},
@@ -20542,11 +20891,304 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 10,
-"nextID": 1
+"zoom": 50,
+"nextID": 7,
+"x": -235,
+"y": 162,
+"role": "R_GROTTE"
 },
 "sid": 16,
-"uid": "S_GROTTE"
+"uid": "S_GROTTE",
+"objects": [
+{
+"uid": "O_HERO",
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 744,
+"y": 1256,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{
+"cells": [
+{
+"col": 44,
+"row": 78,
+"linkSelObj": {
+"obj": "O_FLECHE"
+}
+},
+{
+"col": 45,
+"row": 78,
+"linkSelObj": {
+"obj": "O_TABBL"
+}
+},
+{
+"col": 46,
+"row": 78,
+"linkSelObj": {
+"obj": "O_TABBR"
+}
+},
+{
+"col": 47,
+"row": 78,
+"linkSelObj": {
+"obj": "O_TABTL"
+}
+},
+{
+"col": 48,
+"row": 78,
+"linkSelObj": {
+"obj": "O_TABTR"
+}
+}
+]
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_FLECHE",
+"depths": [
+{
+"y": 1008,
+"a": 32,
+"b": 100
+},
+{
+"y": 1024,
+"a": 100,
+"b": 100
+}
+],
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 838,
+"y": 817,
+"parallax": 100,
+"angle": 90,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_TABTR",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 886,
+"y": 336,
+"parallax": 100,
+"angle": 90,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_TABBR",
+"id": 4,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 885,
+"y": 570,
+"parallax": 100,
+"angle": 270,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_TABTL",
+"id": 5,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 650,
+"y": 336,
+"parallax": 100,
+"angle": 180,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_TABBL",
+"id": 6,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 652,
+"y": 562,
+"parallax": 100,
+"angle": 90,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+]
 },
 {
 "scene": {
@@ -21210,13 +21852,13 @@
 "height": 148,
 "x": 44,
 "y": 145,
-"speedX": 250,
-"speedY": 250
+"speedX": 275,
+"speedY": 275
 },
 "anims": [
 {
 "name": "STOP",
-"fps": 12,
+"fps": 30,
 "action": -1,
 "loopRangeMax": -1,
 "dirs": [
@@ -24379,6 +25021,558 @@
 }
 ]
 }
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 236,
+"height": 234,
+"x": 118,
+"y": 117
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "58bf474efa2b74a4d2a0bdd1f3c1aef2",
+"wtrim": 236,
+"htrim": 234,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 240,
+"hdraw": 238
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 59,
+"uid": "O_TABTR",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 236,
+"h": 234
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 236,
+"height": 234,
+"x": 118,
+"y": 117
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "7a37b0a15073c10737c54735f82d8ee1",
+"wtrim": 236,
+"htrim": 234,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 240,
+"hdraw": 238
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 60,
+"uid": "O_TABTL",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 236,
+"h": 234
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 237,
+"height": 234,
+"x": 118,
+"y": 117
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "a66070477de32119723ed3dc02695d4c",
+"wtrim": 238,
+"htrim": 234,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 242,
+"hdraw": 238
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 61,
+"uid": "O_TABBR",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 238,
+"h": 234
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 236,
+"height": 244,
+"x": 118,
+"y": 117
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "5d58c0adb4da11b807e3a50663e84bb5",
+"wtrim": 236,
+"htrim": 244,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 240,
+"hdraw": 248
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 62,
+"uid": "O_TABBL",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 236,
+"h": 244
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
 }
 ],
 "players": [
@@ -24393,6 +25587,6 @@
 }
 ],
 "meta": {
-"nextAssetID": 59
+"nextAssetID": 64
 }
 }
