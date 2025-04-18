@@ -1008,7 +1008,7 @@
 "uid": "R_LETTRE",
 "graph": {
 "board": {
-"nextid": 18,
+"nextid": 21,
 "boxes": [
 {
 "type": 257,
@@ -1020,36 +1020,16 @@
 "id": 2,
 "type": 3,
 "trgs": [
-4
-]
-}
-]
-},
-{
-"type": 771,
-"id": 3,
-"x": 318,
-"y": 221,
-"plugs": [
-{
-"id": 4,
-"type": 2
-},
-{
-"id": 5,
-"type": 3,
-"trgs": [
 7
 ]
 }
-],
-"duration": "2000"
+]
 },
 {
 "type": 786,
 "id": 6,
-"x": 453,
-"y": 218,
+"x": 373,
+"y": 216,
 "plugs": [
 {
 "id": 7,
@@ -1059,7 +1039,7 @@
 "id": 8,
 "type": 3,
 "trgs": [
-10
+19
 ]
 }
 ],
@@ -1068,30 +1048,10 @@
 "obj": "O_LETTREON"
 },
 {
-"type": 771,
-"id": 9,
-"x": 594,
-"y": 217,
-"plugs": [
-{
-"id": 10,
-"type": 2
-},
-{
-"id": 11,
-"type": 3,
-"trgs": [
-16
-]
-}
-],
-"duration": "2000"
-},
-{
 "type": 775,
 "id": 12,
-"x": 829,
-"y": 215,
+"x": 857,
+"y": 217,
 "plugs": [
 {
 "id": 13,
@@ -1110,8 +1070,8 @@
 {
 "type": 780,
 "id": 15,
-"x": 698,
-"y": 282,
+"x": 710,
+"y": 206,
 "plugs": [
 {
 "id": 16,
@@ -1126,6 +1086,27 @@
 }
 ],
 "puzzle": "#lettre"
+},
+{
+"type": 781,
+"id": 18,
+"x": 529,
+"y": 217,
+"plugs": [
+{
+"id": 19,
+"type": 2
+},
+{
+"id": 20,
+"type": 3,
+"trgs": [
+16
+]
+}
+],
+"dialog": "D_LETTRE",
+"sentence": "1"
 }
 ]
 }
@@ -1136,9 +1117,9 @@
 "uid": "R_PLACE",
 "graph": {
 "board": {
-"nextid": 178,
-"x": 28,
-"y": -29,
+"nextid": 184,
+"x": 557,
+"y": 170,
 "boxes": [
 {
 "type": 257,
@@ -1443,8 +1424,8 @@
 {
 "type": 788,
 "id": 42,
-"x": 628,
-"y": 661,
+"x": 764,
+"y": 673,
 "plugs": [
 {
 "id": 43,
@@ -1484,7 +1465,7 @@
 "id": 49,
 "type": 3,
 "trgs": [
-43
+179
 ]
 },
 {
@@ -1497,8 +1478,8 @@
 {
 "type": 780,
 "id": 51,
-"x": 789,
-"y": 643,
+"x": 962,
+"y": 689,
 "plugs": [
 {
 "id": 52,
@@ -1593,7 +1574,7 @@
 "id": 69,
 "type": 3,
 "trgs": [
-171
+182
 ]
 },
 {
@@ -1610,8 +1591,8 @@
 {
 "type": 788,
 "id": 72,
-"x": 730,
-"y": 817,
+"x": 888,
+"y": 815,
 "plugs": [
 {
 "id": 73,
@@ -1632,8 +1613,8 @@
 {
 "type": 780,
 "id": 75,
-"x": 884,
-"y": 815,
+"x": 1023,
+"y": 807,
 "plugs": [
 {
 "id": 76,
@@ -2098,8 +2079,8 @@
 {
 "type": 788,
 "id": 170,
-"x": 580,
-"y": 812,
+"x": 736,
+"y": 811,
 "plugs": [
 {
 "id": 171,
@@ -2154,6 +2135,48 @@
 "durationOut": "0",
 "durationWait": "0",
 "durationIn": "0"
+},
+{
+"type": 781,
+"id": 178,
+"x": 569,
+"y": 662,
+"plugs": [
+{
+"id": 179,
+"type": 2
+},
+{
+"id": 180,
+"type": 3,
+"trgs": [
+43
+]
+}
+],
+"dialog": "D_GARCON",
+"sentence": "1"
+},
+{
+"type": 781,
+"id": 181,
+"x": 608,
+"y": 804,
+"plugs": [
+{
+"id": 182,
+"type": 2
+},
+{
+"id": 183,
+"type": 3,
+"trgs": [
+171
+]
+}
+],
+"dialog": "D_GARCO2",
+"sentence": "2"
 }
 ]
 }
@@ -25736,6 +25759,79 @@
 }
 ],
 "meta": {
-"nextAssetID": 64
+"nextAssetID": 67
+},
+"dialogs": [
+{
+"sid": 64,
+"uid": "D_LETTRE",
+"dialog": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"en": "«  \r\nÀ toi qui lis ces lignes,\r\n\r\nSi tu es arrivée jusqu’à Ornwald, c’est que tu es prête.  \r\nLe village est figé dans un automne sans fin. Le vent ne dort plus, et les saisons attendent.\r\n\r\nTa mission est simple, mais vitale :  \r\n- Rassemble les quatre éléments des saisons oubliées.  \r\n- Gagne la confiance des esprits d’Ornwald.  \r\n- Et trouve le sanctuaire.\r\n\r\nLà-bas, tu sauras quoi faire.\r\n\r\n— Maître Alar  \r\n»"
+},
+"speaker": "VOICE-OVER"
 }
+]
+},
+"nextID": 2
+}
+},
+{
+"sid": 65,
+"uid": "D_GARCON",
+"dialog": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"en": "Tu veux bien m’aider ?  \r\nMa lanterne s’est éteinte...  \r\nSans elle, je ne peux pas rentrer chez moi."
+},
+"sentences": [
+{
+"id": 2,
+"choice": true,
+"text": {
+"en": "Donne la moi je vais te faire ca, vite fait, bien fait !"
+}
+},
+{
+"id": 3,
+"choice": true,
+"text": {
+"en": "Je vais t'aider !"
+}
+}
+],
+"speaker": "O_GARCON",
+"lookat": "O_HERO"
+}
+]
+},
+"nextID": 4
+}
+},
+{
+"sid": 66,
+"uid": "D_GARCO2",
+"dialog": {
+"sentence": {
+"sentences": [
+{
+"id": 2,
+"text": {
+"en": "Merci…  \r\nJe crois que je peux rentrer maintenant.  \r\nTu es gentille, toi."
+},
+"speaker": "O_GARCON"
+}
+]
+},
+"nextID": 3
+}
+}
+]
 }
