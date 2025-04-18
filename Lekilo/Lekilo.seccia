@@ -4201,7 +4201,9 @@
 "uid": "R_GROTTE",
 "graph": {
 "board": {
-"nextid": 88,
+"nextid": 124,
+"x": 58,
+"y": -86,
 "boxes": [
 {
 "type": 257,
@@ -4212,7 +4214,7 @@
 "type": 3
 }
 ],
-"script": "set rot1 = 0\r\nset rot2 = 0\r\nset rot3 = 0\r\nset rot4 = 0"
+"script": "set rot1 0\r\nset rot2 0\r\nset rot3 0\r\nset rot4 0"
 },
 {
 "type": 1287,
@@ -4235,8 +4237,8 @@
 {
 "type": 775,
 "id": 5,
-"x": 533,
-"y": 164,
+"x": 521,
+"y": 152,
 "plugs": [
 {
 "id": 6,
@@ -4260,33 +4262,12 @@
 "plugs": [
 {
 "id": 9,
-"type": 3,
-"trgs": [
-35
-]
+"type": 3
 }
 ],
 "varCmp": "==",
 "scene": "S_GROTTE",
 "obj": "O_TABBL"
-},
-{
-"type": 513,
-"id": 34,
-"x": 500,
-"y": 308,
-"plugs": [
-{
-"id": 35,
-"type": 2
-},
-{
-"id": 36,
-"type": 3
-}
-],
-"script": "if rot1 == 0\r\n\t    rotate O_TABBL 90\r\n\t    set rot1 = 1\r\nelse if rot1 == 1\r\n\t    rotate O_TABBL 180\r\n\t    set rot1 = 2\r\nelse if rot1 == 2\r\n\t    rotate O_TABBL 270\r\n\t    set rot1 = 3\r\nelse if rot == 3\r\n\t    rotate O_TABBL 0\r\n\t    set rot1 = 0\r\n",
-"plugCount": 1
 },
 {
 "type": 1287,
@@ -4296,33 +4277,12 @@
 "plugs": [
 {
 "id": 47,
-"type": 3,
-"trgs": [
-49
-]
+"type": 3
 }
 ],
 "varCmp": "==",
 "scene": "S_GROTTE",
 "obj": "O_TABBR"
-},
-{
-"type": 513,
-"id": 48,
-"x": 531,
-"y": 390,
-"plugs": [
-{
-"id": 49,
-"type": 2
-},
-{
-"id": 50,
-"type": 3
-}
-],
-"script": "if rot2 == 0\r\n\t    rotate O_TABBR 90\r\n\t    set rot2 = 1\r\nelse if rot2 == 1\r\n\t    rotate O_TABBR 180\r\n\t    set rot2 = 2\r\nelse if rot2 == 2\r\n\t    rotate O_TABBR 270\r\n\t    set rot2 = 3\r\nelse if rot2 == 3\r\n\t    rotate O_TABBR 0\r\n\t    set rot2 = 0\r\n",
-"plugCount": 1
 },
 {
 "type": 1287,
@@ -4332,10 +4292,7 @@
 "plugs": [
 {
 "id": 61,
-"type": 3,
-"trgs": [
-63
-]
+"type": 3
 }
 ],
 "varCmp": "==",
@@ -4343,58 +4300,19 @@
 "obj": "O_TABTL"
 },
 {
-"type": 513,
-"id": 62,
-"x": 567,
-"y": 461,
-"plugs": [
-{
-"id": 63,
-"type": 2
-},
-{
-"id": 64,
-"type": 3
-}
-],
-"script": "if rot3 == 0\r\n\t    rotate O_TABTL 90\r\n\t    set rot3 = 1\r\nelse if rot3 == 1\r\n\t    rotate O_TABTL 180\r\n\t    set rot3 = 2\r\nelse if rot3 == 2\r\n\t    rotate O_TABTL 270\r\n\t    set rot3 = 3\r\nelse if rot3 == 3\r\n\t    rotate O_TABTL 0\r\n\t    set rot3 = 0\r\n",
-"plugCount": 1
-},
-{
 "type": 1287,
 "id": 74,
-"x": 307,
-"y": 532,
+"x": 314,
+"y": 552,
 "plugs": [
 {
 "id": 75,
-"type": 3,
-"trgs": [
-77
-]
+"type": 3
 }
 ],
 "varCmp": "==",
 "scene": "S_GROTTE",
 "obj": "O_TABTR"
-},
-{
-"type": 513,
-"id": 76,
-"x": 556,
-"y": 557,
-"plugs": [
-{
-"id": 77,
-"type": 2
-},
-{
-"id": 78,
-"type": 3
-}
-],
-"script": "if rot3 == 0\r\n\t    rotate O_TABTR 90\r\n\t    set rot3 = 1\r\nelse if rot3 == 1\r\n\t    rotate O_TABTR 180\r\n\t    set rot3 = 2\r\nelse if rot3 == 2\r\n\t    rotate O_TABTR 270\r\n\t    set rot3 = 3\r\nelse if rot3 == 3\r\n\t    rotate O_TABTR 0\r\n\t    set rot3 = 0\r\n",
-"plugCount": 1
 }
 ]
 }
@@ -21859,7 +21777,7 @@
 "anims": [
 {
 "name": "STOP",
-"fps": 30,
+"fps": 40,
 "action": -1,
 "loopRangeMax": -1,
 "dirs": [
